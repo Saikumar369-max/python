@@ -1,0 +1,28 @@
+kilo_grams = float(input('Enter weight in Kg to Convert into pounds:')) 
+pounds = kilo_grams * 2.2 
+print(kilo_grams,' Kilograms =', pounds,' Pounds')
+
+//
+for i in range(8,90,3): 
+print(i,end=" ")
+//
+for i in range(8,90,3): 
+print(i,end=" ")
+//
+
+numbers = [10, 45, 2, 99, 65] 
+largest = max(numbers) 
+print("Largest number is:", largest)
+//
+def fibonacci(n): 
+if n <= 0: 
+return "Invalid input" 
+elif n == 1: 
+return 0 
+elif n == 2: 
+return 1 
+else: 
+return fibonacci(n-1) + fibonacci(n-2) 
+n = 7 
+print(f"Fibonacci number at position {n} is:", fibonacci(n)) 
+//
